@@ -15,7 +15,7 @@ public class ReversalAlgoArrayRotation {
 
 	}
 
-	private static void arrayRotate(int[] inputArray, int rotationSpot, int length) {
+	static void arrayRotate(int[] inputArray, int rotationSpot, int length) {
 		// TODO Auto-generated method stub
 		reverseArray(inputArray, 0, rotationSpot - 1);
 		reverseArray(inputArray, rotationSpot, length - 1);
