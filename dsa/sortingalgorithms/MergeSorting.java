@@ -51,7 +51,8 @@ public class MergeSorting {
 		}
 
 		while (j <= end) {
-			tempArr[k] = a[j] - k++;
+			tempArr[k] = a[j];
+			k++;
 			j++;
 		}
 
