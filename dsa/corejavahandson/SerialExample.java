@@ -1,4 +1,4 @@
-package codehere.dsa.corejavahandson;
+package corejavahandson;
 
 //Java code for serialization and deserialization
 //of a Java object

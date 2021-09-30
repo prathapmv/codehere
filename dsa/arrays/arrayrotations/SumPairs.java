@@ -1,4 +1,4 @@
-package codehere.dsa.arrays.arrayrotations;
+package arrays.arrayrotations;
 
 /*
 Given an array that is sorted and then rotated around an unknown point. 

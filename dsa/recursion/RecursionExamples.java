@@ -1,4 +1,4 @@
-package codehere.dsa.recursion;
+package recursion;
 
 public class RecursionExamples {
 

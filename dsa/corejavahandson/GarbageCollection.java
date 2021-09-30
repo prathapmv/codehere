@@ -1,4 +1,4 @@
-package codehere.dsa.corejavahandson;
+package corejavahandson;
 
 public class GarbageCollection {
 

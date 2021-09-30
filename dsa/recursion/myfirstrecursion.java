@@ -1,4 +1,4 @@
-package codehere.dsa.recursion;
+package recursion;
 
 class FirstRecursion {
 	public int recurSum(int a) {

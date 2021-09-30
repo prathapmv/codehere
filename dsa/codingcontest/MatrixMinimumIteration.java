@@ -1,4 +1,4 @@
-package codehere.dsa.codingcontest;
+package codingcontest;
 
 public class MatrixMinimumIteration {
 

@@ -1,4 +1,4 @@
-package codehere.dsa.corejavahandson;
+package corejavahandson;
 
 //Java program to demonstrate working of finalize()
 public class FinalizeMethodTest {

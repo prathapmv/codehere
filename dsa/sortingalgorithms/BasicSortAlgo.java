@@ -1,4 +1,4 @@
-package codehere.dsa.sortingalgorithms;
+package sortingalgorithms;
 
 public class BasicSortAlgo {
 

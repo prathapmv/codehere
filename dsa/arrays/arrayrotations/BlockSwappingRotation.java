@@ -1,4 +1,4 @@
-package codehere.dsa.arrays.arrayrotations;
+package arrays.arrayrotations;
 
 import java.util.Arrays;
 

@@ -1,6 +1,4 @@
-package codehere.dsa.corejavahandson;
-
-import java.util.*;
+package corejavahandson;
 
 public class ArrayDeclaration {
 
