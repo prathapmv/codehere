@@ -1,5 +1,7 @@
 package arrays.arrayrotations;
 
+import java.util.Arrays;
+
 /*
 Given an array, only rotation operation is allowed on array. 
 We can rotate the array as many times as we want. Return the maximum possible summation of i*arr[i].
@@ -12,7 +14,7 @@ We can get 72 by rotating array twice.
 
 public class MaxSum {
     public static void main(String args[]) {
-        int arr[] = { 1, 20, 2, 10 };
+        int arr[] = { 10, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
         int sumArr[] = new int[arr.length];
 
         int n = arr.length;
@@ -21,23 +23,20 @@ public class MaxSum {
             ReversalAlgoArrayRotation.arrayRotate(arr, i + 1, n);
             sumArr[i] = sumArray(arr);
         }
+        System.out.println(Arrays.toString(sumArr));
         findLargestSum(sumArr);
     }
 
     private static void findLargestSum(int[] sumArr) {
-        int largestSum = 0;
-        int rotationCount = 0;
+        int largestSum = sumArr[0];
+        // int rotationCount = 0;
         for (int i = 0; i < sumArr.length - 1; i++) {
-            if (sumArr[i] >= sumArr[i + 1]) {
+            if (largestSum <= sumArr[i + 1]) {
                 largestSum = sumArr[i];
-                rotationCount = i;
-            } else {
-                largestSum = sumArr[i + 1];
-                rotationCount = i;
+                // rotationCount = i;
             }
         }
-        System.out.println(
-                "Largest summation from the given array is " + largestSum + " with " + rotationCount + " rotations.");
+        System.out.println("Largest summation from the given array is " + largestSum);
     }
 
     private static int sumArray(int[] arr) {
