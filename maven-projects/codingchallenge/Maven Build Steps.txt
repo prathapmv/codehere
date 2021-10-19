@@ -11,7 +11,7 @@ java -jar target/codingchallenge-1.0-SNAPSHOT.jar 123456
 How geektrust team executes my code?
 mvn clean install -DskipTests -q assembly:single
 java -jar <path_to>/geektrust.jar <absolute_path_to_input_file>
-java -jar target/geektrust.jar  "C:\Users\prathap.matheswaran\OneDrive - Accenture\Projects\practice\src\maven-practise\codingchallenge\src\input\inputfile.txt"
+java -jar target/geektrust.jar  "C:\Users\prathap.matheswaran\OneDrive - Accenture\Projects\java\maven-practise\codingchallenge\src\input\inputfile.txt"
 
 
 
