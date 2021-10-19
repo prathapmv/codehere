@@ -1,0 +1,48 @@
+@import url('https://fonts.google.com/specimen/Pacifico#standard-styles');
+
+body {
+    background-color: cornsilk;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+}
+
+.heading-style {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-style {
+    width: 250px;
+    border-radius: 50%;
+    position: relative;
+    left: 500px;
+    padding: 50 10 10 10;
+}
+
+.p-style {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div-headingBorder {
+    border-radius: 10px;
+    border-color: gray;
+    border-style: solid;
+    text-align: justify;
+}
+
+.div-content {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
